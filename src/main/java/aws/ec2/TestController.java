@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/api/test")
-    public ResponseEntity<?> test() {
-        return ResponseEntity.ok("hello world!!!");
+    public String test() {
+        System.out.println("test complete");
+        return "Hello World!!";
     }
 }
