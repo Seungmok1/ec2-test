@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping("/api/test")
     public ResponseEntity<?> test() {
-        return ResponseEntity.ok("hello world");
+        return ResponseEntity.ok("hello world!!!");
     }
 }
